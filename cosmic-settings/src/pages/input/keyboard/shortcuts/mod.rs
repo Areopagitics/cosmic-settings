@@ -575,6 +575,7 @@ fn all_system_actions() -> &'static [Action] {
         Action::PreviousWorkspace,
         Action::Resizing(ResizeDirection::Inwards),
         Action::Resizing(ResizeDirection::Outwards),
+        Action::ShowDesktop,
         Action::SwapWindow,
         Action::SwitchOutput(Direction::Down),
         Action::SwitchOutput(Direction::Left),
